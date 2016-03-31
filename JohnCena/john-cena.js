@@ -30,8 +30,8 @@
 				}
 
 				//Cena Vars
-				var cenaImageMarkup = '<img id="elCena" style="display: none" src="cena.png" />'
-				var cenaAudioMarkup = '<audio id="elCenaShriek" preload="auto"><source src="his-name-is-john-cena.mp3" /><source src="his-name-is-john-cena.ogg" /></audio>';
+				var cenaImageMarkup = '<img id="elCena" style="display: none" src="http://sllord-tk.github.io/JohnCena/cena.png" />'
+				var cenaAudioMarkup = '<audio id="elCenaShriek" preload="auto"><source src="http://sllord-tk.github.io/JohnCena/his-name-is-john-cena.mp3" /><source src="http://sllord-tk.github.io/JohnCena/his-name-is-john-cena.ogg" /></audio>';
 				var locked = false;
 
 				//Append Cena and Style
