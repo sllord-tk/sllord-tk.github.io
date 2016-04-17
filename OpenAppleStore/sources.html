@@ -5,6 +5,16 @@
   </head>
   <body>
     <script src="http://sllord-tk.github.io/OpenAppleStore/functions.js"></script>
+    <script>
+    $.getscript("http://sllord-tk.github.io/OpenAppleStore/functions.js",addRepository(){
+    add();
+    });
+    </script>
+    <script>
+    $.getscript("http://sllord-tk.github.io/OpenAppleStore/functions.js",reloadSources(){
+    add();
+    });
+    </script>
     <div  class="navbar">
       <div  class="navbar-inner navbar-on-center"><br>
         <div  style="text-align: center;"  class="left"><a  href="#"  onclick="reloadSources()"
@@ -13,7 +23,7 @@
         <div  class="center sliding"  style="left: -15.5px; transform: translate3d(0px, 0px, 0px); text-align: center;">Repos</div>
         <div  style="text-align: center;"  class="right"> <a  href="#"  class="add-repo link"
 
-             onclick="addRepository();" src="http://sllord-tk.github.io/OpenAppleStore/functions.js">Add</a> </div>
+             onclick="add();" src="http://sllord-tk.github.io/OpenAppleStore/functions.js">Add</a> </div>
       </div>
     </div>
     <div  class="pages navbar-through">
