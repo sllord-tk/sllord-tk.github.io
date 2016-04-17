@@ -1,40 +1,21 @@
-<html>
-  <head>
-    <script src="http://sllord-tk.github.io/OpenAppleStore/functions.js"></script>
-    <meta  content="text/html; charset=windows-1252"  http-equiv="content-type">
-  </head>
-  <body>
-    <script src="http://sllord-tk.github.io/OpenAppleStore/functions.js"></script>
-    <script>
-    $.getscript("http://sllord-tk.github.io/OpenAppleStore/functions.js",addRepository(){
-    add();
-    });
-    </script>
-    <script>
-    $.getscript("http://sllord-tk.github.io/OpenAppleStore/functions.js",reloadSources(){
-    add();
-    });
-    </script>
-    <div  class="navbar">
-      <div  class="navbar-inner navbar-on-center"><br>
-        <div  style="text-align: center;"  class="left"><a  href="#"  onclick="reloadSources()"
-
-             class="btn-reload">Refresh</a> </div>
-        <div  class="center sliding"  style="left: -15.5px; transform: translate3d(0px, 0px, 0px); text-align: center;">Repos</div>
-        <div  style="text-align: center;"  class="right"> <a  href="#"  class="add-repo link"
-
-             onclick="add();" src="http://sllord-tk.github.io/OpenAppleStore/functions.js">Add</a> </div>
-      </div>
-    </div>
-    <div  class="pages navbar-through">
-      <div  data-page="repos-list"  class="page">
-        <div  class="page-content"  style="background:#fff; background-size: cover;">
-          <div  class="list-block media-list"  style="margin-top:0px;">
-            <ul  class="inner-repos">
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
+<div class="navbar">
+		<div class="navbar-inner navbar-on-center">
+				<div class="left">
+						<a href="#" onclick="reloadSources()" class="btn-reload">Refresh</a>
+				</div>
+				<div class="center sliding" style="left: -15.5px; transform: translate3d(0px, 0px, 0px);">Repos</div>
+				<div class="right">
+						<a href="#" class="add-repo link" onClick="addRepository();">Add</a>
+				</div>
+		</div>
+</div>
+<div class="pages navbar-through">
+		<div data-page="repos-list" class="page">
+				<div class="page-content" style="background:#fff; background-size: cover;">
+					<div class="list-block media-list" style="margin-top:0px;">
+						<ul class="inner-repos">
+						</ul>
+					</div>
+				</div>
+		</div>
+</div>
