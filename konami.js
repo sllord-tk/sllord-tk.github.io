@@ -4,8 +4,8 @@ var allowedKeys = {
   38: 'up',
   39: 'right',
   40: 'down',
-  66: 'b',
-  65: 'a'
+  65: 'a',
+  66: 'b'
 };
 
 // the 'official' Konami Code sequence
@@ -35,9 +35,9 @@ document.addEventListener('keydown', function(e) {
 });
 
 function activateCheats() {
-  document.body.style.backgroundImage = "url('')";
+  document.body.style.backgroundImage = "url('https://theoriginalsalsaandsalsa.files.wordpress.com/2011/12/2-elote-en-vaso.jpg')";
 
-  var audio = new Audio('spanish.mp3');
+  var audio = new Audio('http://sllord-tk.github.io/spanish.mp3');
   audio.play();
 
   alert("Spanish mode activated.");
