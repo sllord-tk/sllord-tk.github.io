@@ -4,8 +4,8 @@ var allowedKeys = {
   38: 'up',
   39: 'right',
   40: 'down',
-  65: 'a',
-  66: 'b'
+  66: 'b',
+  65: 'a'
 };
 
 // the 'official' Konami Code sequence
